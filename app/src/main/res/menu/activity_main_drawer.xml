@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stand"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Настройка стенда" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Сенсоры" />
+        <item
+            android:id="@+id/nav_script"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Сценарии" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Товары" />
+        <!--<item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Фрагмент 5" />-->
+    </group>
+
+</menu>

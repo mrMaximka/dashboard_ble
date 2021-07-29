@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_stand">
+
+    <fragment
+        android:id="@+id/nav_stand"
+        android:name="com.mrmaximka.dashboard.ui.stand.StandSettingsFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_stand" />
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="com.mrmaximka.dashboard.ui.sensors.SensorFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_script"
+        android:name="com.mrmaximka.dashboard.ui.scripts.ScriptFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_script" />
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.mrmaximka.dashboard.ui.products.ProductFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_product" />
+
+    <!--<fragment
+        android:id="@+id/nav_share"
+        android:name="com.mrmaximka.dashboard.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.mrmaximka.dashboard.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />-->
+</navigation>
